@@ -1,0 +1,9 @@
+-- Send a Roblox notification
+game.StarterGui:SetCore("SendNotification", {
+    Title = "ScytheSploits"; -- The title of the notification
+    Text = "Injected 83 Unc have fun"; -- The description of the notification
+    Duration = 5; -- Duration in seconds
+})
+
+-- Print to the console
+print("Injected ScytheSploits")
